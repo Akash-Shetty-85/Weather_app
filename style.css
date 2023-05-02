@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-top: 5%;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+input{
+    color:black;
+    width: 50%;
+    height: 3rem;
+    border-radius: 1rem;
+    text-align:center;
+    font-weight: 700;
+    outline: none;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    background:linear-gradient(190deg,rgb(60, 165, 218),blue) ;
+
+}
+input::placeholder {
+    color: rgb(0, 0, 0);
+}
+input:focus::placeholder {
+    color: rgb(255, 255, 255);
+}
+input:focus{
+    background: rgb(241, 241, 241);
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
