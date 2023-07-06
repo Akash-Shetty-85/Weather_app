@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container1{
+.container{
     margin-top: 5%;
 }
 #form{
@@ -34,10 +34,8 @@ input:focus::placeholder {
 input:focus{
     background: rgb(241, 241, 241);
 }
-
-
-
-.card{
+.card
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +43,7 @@ input:focus{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     height: 560px;
-    width: 300px;
+    width: 500px;
     background-color: rgba(255,255,255,0.06);
     position: absolute;
     margin: auto;
@@ -60,14 +58,14 @@ input:focus{
     font-family: 'Poppins',sans-serif;
     color: #fcfcfc;
 }
-h4{
+.card-title{
     letter-spacing: 4px;
     font-weight: 600;
     font-size: 18px;
     text-align: center;
     margin: 25px 0 10px 0;
 }
-h6{
+.card-description{
     text-align: center;
     color: #b3b3b3;
     font-size: 15px;
@@ -75,29 +73,28 @@ h6{
     font-weight: 300;
     margin-bottom: 25px;
 }
-
-h1{
+.card-temperature{
     letter-spacing: 2px;
     text-align: center;
     font-size: 50px;
     font-weight: 300;
 }
-.container{
+.card-container{
     width: 70%;
     margin-left: 15%;
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 30px;
 }
-.details{
+.card-details{
     text-align: center;
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 600;
 }
-.details span{
+.card-details .card-span{
     color: #b3b3b3;
 }
-.details:first-child{
+.card-details:first-child{
     border-right: 2px solid #fcfcfc;
 }
